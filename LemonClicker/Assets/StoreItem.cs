@@ -14,6 +14,9 @@ public class StoreItem : MonoBehaviour
     /** Number of items bought */
     public int count = 0;
 
+/** The cost increase per purchase */
+    public int costIncrease = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +43,7 @@ public class StoreItem : MonoBehaviour
             {
                 GameManager.Instance.points -= this.cost;
                 count = count + 1;
+                this.cost += (costIncrease * this.count);
             }
         }
     }
