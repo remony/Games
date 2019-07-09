@@ -9,7 +9,7 @@ public class GameManager : Singleton<GameManager>
     public ClickAction clickAction;
 
     /** The game points */
-    public int points;
+    public float points;
 
     /** The cooldown period in seconds regain limit */
     public int cooldown = 2;

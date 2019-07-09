@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,7 +36,7 @@ public class Scoreboard : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Points: " + GameManager.Instance.points;
+            scoreText.text = "Points: " + Math.Round(GameManager.Instance.points);
         }
 
         if (clickText != null)
