@@ -1,6 +1,8 @@
-# UnityGames
+# Games
 
 This git repo contains mini games that I have created in my own time as experiments or for fun.
+
+The repo will contain a mixture of engines, etc and not fixed to a single engine/framework/language.
 
 ## Games
 
